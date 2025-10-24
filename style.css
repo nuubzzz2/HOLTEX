@@ -102,8 +102,8 @@ html,body{ height:100%; margin:0; font-family: "Inter", system-ui, -apple-system
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  width: 100%;
-  max-width: 100%;
+  width: 90%;
+  max-width: 90%;
   padding: 0 12px;
   margin-top: 8px;
 }
@@ -326,4 +326,5 @@ html,body{ height:100%; margin:0; font-family: "Inter", system-ui, -apple-system
 /* If you still see overflow on some devices, fallback to allow the gallery to scale down a bit */
 @media (max-width: 340px) {
   .hero-thumb { width: calc((100% - (var(--gap) * 2)) / 3 - 4px); min-width: 56px; }
+
 }
